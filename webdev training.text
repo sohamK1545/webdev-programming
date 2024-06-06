@@ -1,0 +1,173 @@
+webdev training
+
+ day 1 :
+ date:04_06_2024
+  * intro to the webdev and languges 
+  * overview of frontend and backend
+  * explain html and some basic tags 
+  * some extension  server live  
+  * short cut ex: h$6
+  * and extension emit
+
+
+code
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Soham Rajesh Kamble</title>
+    </head>
+    <body>
+        <h1>This is the heading</h1>
+        <p>This is a paragraph.</p>
+        <a href="https://in.pinterest.com/"target="__blank">This is a link</a>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVTMTaJz85Jsxw9iZ1V2jIDhIQ2RScCB8BaA&s" alt="sample not found">
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+        </ul>
+      
+    </body>
+</html>
+
+
+
+
+
+
+
+
+day 2:
+ date : 05_04_24
+*  SPECIAL character
+    how to print special character
+    by using   "   &   "
+
+   for example  : 
+
+     <h1> &lt  </h1>
+
+*  file managing in windows and using cmd to open the code file
+
+*  comments 
+   comments in html are same as other lang's
+   
+  syntax :
+              <!-- comment1
+                   comment2 
+                   comment3-->
+
+
+// syntax is same for single line or multi-line commment 
+
+
+* tag <li>
+      
+   // li is list item tag
+
+
+*<ul type="datatype"> 
+
+  // this tag is use to secifiy the type of notation
+
+    for example : 
+           <ul type="circle">
+            <ul type="square">
+            <ul type="triangle">
+          etc.
+
+
+
+* tables
+
+    this is a tag which form the data in such a way that it represent as table 
+                                    <table>
+ this tag is a collection some different tags that is use to present data in a table format
+
+        syntax of table :   
+                            <body>
+                              <table border="border number">
+                                 <thead>
+                                      <tr>
+                                        <th>table head n0.1</th>
+                                        <th>table head n0.2</th>
+                                        <th>table head n0.3</th>
+                                       </tr>
+                                 </thead>
+
+                                    <tbody>
+                                         <tr>
+                                               <td>1</td>
+                                               <td>soham kamble</td>
+                                             	  <td>pune </td>
+                                           </tr>
+                                  </tbody>
+                        </table>
+                         <body> 
+
+                        
+
+        
+
+
+
+* forms   
+
+   this tag is use to make form 
+ 
+
+
+           syntax :
+                       <form>
+                          <p>Enter your name</p>
+                       	 <input type="text">
+                        <p>Enter your age</p>
+                        <input type="number">
+                        <p>Enter your email</p>
+                        <input type="email">
+                        <p>enter passcode</p>
+                        <input type="password">
+                        <p>enter gender</p>
+                        <input type="gender">
+                        <br>
+                        <button>submit</button>
+                        <br>
+                        <input type="submit"value="submit">
+                        <p> the feedback</p>
+                        <textarea name="feadback" id="100"></textarea>
+                      </form>
+ 
+
+
+// in the above syntax there are some type or input tyoe to get input which form the dev want
+
+
+
+
+* for input 
+
+    to take input the input tag is use
+ 
+
+               syntax :
+                         <input type="text">
+             
+
+                example :
+                         <input type="text">
+                       <input type="number">
+
+
+*  <br> tag
+
+    to give space or to break the line use <br> tag
+  // their is no ending tag of br tag
+                syntax :
+                         <br>
+
+
+
+* textarea tag
+  this tag is use to creat a tex box that store the text 
+                        syntax: 
+                                 <textarea name="name" id="size"></textarea>
