@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Introduction</title>
+    <style>
+        /* * {
+            border: 2px solid black;
+        } */
+
+        body{
+            background-color: wheat;
+        }
+
+        h1{
+            color: red;
+            background-color: green;
+        }
+
+        /* h2{
+            color: yellow;
+            background-color: blue;
+        } */
+
+        /* p{
+            background-color: red;
+        } */
+
+        div div p{
+            background-color: aqua;
+        }
+
+        a{
+            color: orange;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>This is H1</h1>
+    <h1>This is H1</h1>
+    <h2>This is H2</h2>
+    <h2>This is H2</h2>
+    <h2>This is H2</h2>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, soluta molestias magnam deleniti accusamus officia facere omnis, voluptas similique reiciendis totam, dolorum veniam.</p>
+
+    <div>
+        <h3>
+            This is h3
+        </h3>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium nam labore architecto nesciunt impedit, commodi hic expedita illum soluta, rem quam explicabo iure deserunt obcaecati corrupti, ipsa ipsam cupiditate vitae.
+        </p>
+    </div>
+
+    <div>
+        <div>
+            <p>osjkldafhiosdf</p>
+        </div>
+    </div>
+
+    <a href="#">new page</a>
+</body>
+</html>

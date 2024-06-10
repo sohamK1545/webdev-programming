@@ -188,3 +188,147 @@ day 3 :
 *INTRo to git and github 
 *what is git bash 
 * commands of git bash 
+
+// no code has done
+
+
+
+--------------------------xxxxxxxxxxxxxxxxxx-----------------------
+
+day :4
+
+  date : 09-06-24
+   
+
+ ** CSS session
+
+
+*selectors 
+
+
+  * css stands for cascading style sheet 
+* CSS USING style tag
+   
+
+  * classes in css and id(identity)
+        
+      / class ==
+         syntax :
+  
+            <tag class="classname"> 
+       
+
+       / id ==
+          syntax : 
+                <tag id="id name">  
+
+
+  *color can be mention by rgb and hexadecimal number
+  
+
+* properties
+   
+   *fonts  
+   *alignments
+   *border
+   *height 
+    *width
+
+
+
+
+day 5 :
+
+ date : 10-06-24
+
+* types of css 
+  *inline css
+  *internal css(embedded css)
+ 
+      Inline CSS: CSS is applied directly within the HTML element using the style attribute.
+
+      Internal CSS( a.k.a. Embedded CSS): CSS is defined within the <style> tag inside the <head> section of an HTML document.
+
+      External CSS: CSS is written in a separate .css file, which is linked to the HTML document using the <link> tag.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+** creation of css file
+     
+    this file is use to write css code and can be extracted by using class name
+    *css file can acess by link tag 
+
+   **link tag 
+   
+
+    link tag is use to link the css file to html file 
+   
+
+    syntax :  
+             <link rel="stylesheet" href="file-name">     
+
+
+
+          *type of links
+  
+           *absolute link
+             it is a link that use to extract from parent-file 
+ 
+  
+          *relative link
+          it is a link that use to extract from exact file or same file 
+  
+
+
+
+
+
+
+
+
+
+
+** box model 
+           box model is a imp concept which is use to modify the fundamental structure of web page
+             
+          their are 4 fundamental things in boxmodel
+           1.content
+           2.padding
+           3.margin
+           4.border
+    
+
+    1.content 
+     
+        content is core of code which is design by padding margin and border
+
+   
+     2.padding,3.margin,4.border
+   
+   
+        this parts are use to design the html page 
+      
+     
+
+
+
+
+
