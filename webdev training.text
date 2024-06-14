@@ -189,7 +189,18 @@ day 3 :
 *what is git bash 
 * commands of git bash 
 
+<<<<<<< HEAD
 // no code has done
+=======
+
+
+
+
+
+
+
+
+>>>>>>> 1afa848e495b89ce85a01916189bdc4589cba778
 
 
 
@@ -326,7 +337,12 @@ day 5 :
    
         this parts are use to design the html page 
       
+<<<<<<< HEAD
      
+=======
+     -------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxx---------------------------------------------------
+
+>>>>>>> 1afa848e495b89ce85a01916189bdc4589cba778
 
 
 
