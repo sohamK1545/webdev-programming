@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cricket Score</title>
+<style>
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.scoreboard {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.score {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.score-item {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.no-ball {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.wide {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.wicket {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.numbers {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.number {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="scoreboard">
+    <h1>Cricket Score</h1>
+    <div class="score" id="score"></div>
+    <div class="numbers">
+      <div class="number" onclick="addScore(0)">0</div>
+      <div class="number" onclick="addScore(1)">1</div>
+      <div class="number" onclick="addScore(2)">2</div>
+      <div class="number" onclick="addScore(3)">3</div>
+      <div class="number" onclick="addScore(4)">4</div>
+      <div class="number" onclick="addScore(5)">5</div>
+      <div class="number" onclick="addScore(6)">6</div>
+    </div>
+    <div class="buttons">
+      <button class="no-ball" onclick="addScore('nb')">No Ball</button>
+      <button class="wide" onclick="addScore('wd')">Wide</button>
+      <button class="wicket" onclick="addScore('w')">Wicket</button>
+    </div>
+  </div>
+</div>
+
+<script>
+let score = [];
+const scoreElement = document.getElementById('score');
+
+function addScore(value) {
+  if (value === 'nb' || value === 'wd' || value === 'w') {
+    score.push(value);
+  } else {
+    score.push(parseInt(value));
+  }
+  updateScore();
+}
+
+function updateScore() {
+  scoreElement.innerHTML = '';
+  score.forEach(item => {
+    const scoreItem = document.createElement('div');
+    scoreItem.classList.add('score-item');
+    if (item === 'nb') {
+      scoreItem.textContent = 'NB';
+    } else if (item === 'wd') {
+      scoreItem.textContent = 'WD';
+    } else if (item === 'w') {
+      scoreItem.textContent = 'W';
+    } else {
+      scoreItem.textContent = item;
+    }
+    scoreElement.appendChild(scoreItem);
+  });
+}
+</script>
+</body>
+</html>

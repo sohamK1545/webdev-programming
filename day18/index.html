@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div id="box"class="m-3 d-flex">
+        <div> </div>
+    </div>
+    <button type="button" class ="btn btn primary m-3" onclick="add()">add</button>
+    <button type="button" class ="btn btn success" onclick="load()">load</button>
+
+
+    <script>
+        var arr =[]
+        
+      //  let a = 5;
+       // let mybox = document.getElementById(box);
+        //mybox.innerHTML =a;
+        
+        // when someone visit on the page below code will be executed
+          if (localStorage.getItem("items")){
+              let str = 
+
+          }
+
+        
+        function add(){
+            let value =  prompt(" enter the value");
+             arr.push(value);
+             arr= JSON.parse(str)
+
+            
+        }
+        function load(){
+            let mybox = document.getElementById(box);
+             mybox.innerHTML = '<div class="box bg-danger-subtle m-3 p-3">';
+             for(let i =0;i<arr.length;i++)
+            {
+                 mybox.innerHTML = mybox.innerHTML +'<div class="box bg-danger-subtle m-3 p-3">'+ aar[i]</div>
+            }    
+            }
+
+    </script>
+</body>
+</html>
