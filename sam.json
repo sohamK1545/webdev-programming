@@ -1,0 +1,19 @@
+{
+    "passwords": [
+        {
+            "username": "sk",
+            "password": "123",
+            "website": "pininterset"
+        },
+        {
+            "username": "rk",
+            "password": "456",
+            "website": "interset"
+        },
+        {
+            "username": "ak",
+            "password": "789",
+            "website": "pin"
+        }
+    ]
+}
