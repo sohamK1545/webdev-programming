@@ -1,0 +1,134 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+}
+
+
+
+h1 {
+  color: #000000;
+  text-shadow: #0f7fe7;
+}
+
+h3 {
+  padding: 50px;
+}
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.table th {
+  background-color: #e9ecef;
+}
+
+.table th:hover {
+  transition: 0.2s;
+  background-color: #ced4da;
+}
+
+.table td {
+  background-color: #fff;
+}
+
+.table td input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  background: none;
+}
+
+.table td button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
+.table td button.download-btn {
+  background-color: #007bff;
+}
+
+.table td button:hover {
+  opacity: 0.8;
+}
+
+.btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+form {
+  border-top: 50px;
+  margin-top: 90px;
+  margin-right: 100px;
+}
+
+form label {
+  margin-bottom: 10px;
+  display: inline-block;
+  color: #000000;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+
+h3 {
+  text-align: top;
+
+
+}
+
+.container {
+
+  border-top: 100px;
+  margin-top: 90px;
+  padding-top: 100px;
+  size: image 2px;;
+}
+.container button1{
+  border: 0;
+  outline: 0;
+  background: #019f55;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 26px;
+  border-radius: 5px;
+  cursor: pointer;
+}
